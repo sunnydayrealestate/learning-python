@@ -3,4 +3,5 @@ git add -A
 echo "Enter commit message:"
 read commitmsg
 git commit -m "$commitmsg"
+git pull 
 git push origin main
